@@ -161,8 +161,25 @@ nav{
 }
 
 /* requests */
+.Requests{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    padding: 1rem;
+}
 .Requests h2{
-    font-size: 3rem;
+    font-size: 1rem;
+}
+.post{
+    display: flex;
+    gap: 5rem;
+    border: 2px solid orange;
+    padding: 1rem;
+}
+.author-group{
+    display: flex;
+    gap: 2rem;
 }
 .user{
     display: flex;
