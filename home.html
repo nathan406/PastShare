@@ -10,10 +10,20 @@
 <body>
     <nav>
         <div>
-            <p>
-                Past Share
-            </p>
+            <a href="home.html">
+                <p>
+                    Past Share
+                </p>
+            </a>
         </div>
+        <div class="dropdown">
+            <img src="static/images/Home/user-icon.webp" >
+            <div class="dropdown-content">
+              <a href="#">Profile</a>
+              <a href="#">Logout</a>
+            </div>
+          </div>
+
     </nav>
 
     <div class="main">
@@ -23,15 +33,126 @@
             <button id="toggleButton">
                 <img src="static/images/Home/filter.png" alt="">
             </button>
-
             <div>
                 <div id="content" class="toggle-div">
-                    <span id="closeButton" class="close-button">x</span>
-                    <h2>Content goes here</h2>
-                    <p>This is the toggleable content.</p>
+                    <span id="closeButton" class="close-button">&#10006;</span>
+                    <div class="actual-content">
+                        <div>
+                            <h1>
+                                Filter
+                            </h1>
+                           
+                        </div>
+                        <div class="sections">
+                            <div class="docs">
+                                <div>
+                                    <h3>
+                                        Documents
+                                    </h3>
+                                    
+                                </div>
+                                <label class="container">Oldest
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Newest
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Relevant
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Science
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Maths
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Language
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+    
+                            </div>
+    
+                            <div class="groups">
+                                <div>
+                                    <h3>
+                                        Groups
+                                    </h3>
+                                    
+                                </div>
+                                <label class="container">Oldest
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Newest
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Relevant
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Science
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Maths
+                                    <input type="checkbox" \>
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Language
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+    
+                            <div class="Requests">
+                                <div>
+                                    <h3>
+                                        Requests
+                                    </h3>
+                                    
+                                </div>
+                                <label class="container">Oldest
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Newest
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Relevant
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Science
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Maths
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Language
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        
                     </div>
-            </div>
+                    </div>
+            </div> 
             
+
+             
+              
+            <!--  -->
 
         </div>
 
@@ -40,6 +161,10 @@
             <h1>
                 Documents
             </h1>
+
+            <button>
+                Upload Document
+            </button>
 
             <div class="documents">
                 <div class="document">
@@ -82,10 +207,14 @@
             <p >see more</p>
 
             <div class="groups">
-
+                
                 <h1>
                     Groups
                 </h1>
+
+                <button>
+                    Create Group
+                </button>
                 
                 <div class="groups-container">
                     <div class="group">
@@ -144,7 +273,9 @@
                         Requests
                     </h1>
     
-                   
+                   <button>
+                    Create Request
+                   </button>
     
                     <div class="Requests" >
                         
@@ -221,8 +352,8 @@
     
                                 <div class="support">
                                     <div>
-                                        <button class="supportbtn" onclick="toggleColor()">Support</button>
-                                    </div>
+                                        <button id="btn">Button</button>
+                                      </div>
         
                                     <div>
                                         <p> 253 supports</p>

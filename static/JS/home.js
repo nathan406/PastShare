@@ -12,7 +12,14 @@ document.getElementById("closeButton").addEventListener("click", function() {
 
 // support button
 
-function toggleColor() {
-  var button = document.querySelector('.supportbtn');
-  button.classList.toggle('clicked');
-}
+const btn = document.getElementById('btn');
+let index = 0;
+const colors = ['orange', 'white'];
+const fontColors = ['white', 'orange'];
+
+btn.addEventListener('click', function onClick() {
+    btn.style.backgroundColor = colors[index];
+    btn.style.color = fontColors[index];
+
+    index = index >= colors.length - 1 ? 0 : index + 1;
+});
