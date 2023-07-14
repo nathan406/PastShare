@@ -250,6 +250,7 @@ nav img{
     background-color: orange;
     padding: 0.5rem;
     color: white;
+    width: 80px;
 }
 
 /* groups */
@@ -305,6 +306,9 @@ nav img{
     flex-direction: column;
     justify-content: left;
     padding: 1rem;
+    gap: 3rem;
+    border-radius: 2rem;
+    background-color: rgb(245, 214, 157);
 }
 
 .Requests button {
@@ -312,7 +316,9 @@ nav img{
     color: orange;
     padding: 1rem;
     width: 100px;
+    height: 40px;
     border: none;
+    border-radius: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -323,6 +329,7 @@ nav img{
     display: flex;
     gap: 5rem;
     border: 2px solid orange;
+    border-radius: 2rem;
     padding: 1rem;
 }
 .author-group{
