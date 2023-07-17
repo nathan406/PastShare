@@ -1,0 +1,40 @@
+html ,body{
+    height: 100%;;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.main-container textarea{
+    padding: 1rem;
+    color: orange;
+    font-size: 2rem;
+    width: 50rem;
+    height: 30rem;
+    border: 2px solid orange;
+    border-radius: 2rem;
+}
+
+.attach{
+    display: flex;
+    gap: 40rem;
+    justify-content: space-evenly;
+}
+
+.attach img{
+    width: 1rem;
+}
+
+.attach button{
+    border: none;
+    background-color: orange;
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+}

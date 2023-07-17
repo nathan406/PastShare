@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" href="static/css/home.css">
+    <link rel="stylesheet" href="static/css/docform.css">
+    <script src="static/JS/main.js" defer></script>
+    <title>Upload Document</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="home.html">
+                <p>
+                    Past Share
+                </p>
+            </a>
+        </div>
+        <div class="dropdown" onclick="toggleDropdown()">
+            <img src="static/images/Home/user-icon.webp" >
+            <div class="dropdown-content">
+              <a href="#">Profile</a>
+              <a href="#">Logout</a>
+            </div>
+        </div>
+
+    </nav>
+    
+    <div class="outer-container">
+        <div>
+            <h1>
+                Upload Document
+            </h1>
+        </div>
+        <div class="main-container">
+            <div class="preview">
+                <div>
+                    <button>upload a preview img</button>
+                </div>
+               
+            </div>
+            <div class="fields">
+                <div class="title">
+                    <h3>Document Title</h3>
+                    <input type="text" placeholder="document title">
+                </div>
+                <div class="file">
+                    <h3>Document File</h3>
+                    <button>Upload file</button>
+                </div>
+                <div class="category-container">
+                    <h2>Document Category</h2>
+                    <p>You can select more than one</p>
+                    <div class="category">
+                        <div>
+                            <button class="btn">Science</button>
+                        </div>
+                        <div>
+                            <button class="btn">Maths</button>
+                        </div>
+                        <div>
+                            <button class="btn">Engineering</button>
+                        </div>
+                        <div>
+                            <button class="btn">Law</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div> 
+    </div>
+</body>
+</html>

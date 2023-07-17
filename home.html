@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/css/home.css">
-    <script src="static/JS/home.js" defer></script>
+    <script src="static/JS/main.js" defer></script>
     <title>Home</title>
 </head>
 <body>
@@ -16,13 +16,13 @@
                 </p>
             </a>
         </div>
-        <div class="dropdown">
+        <div class="dropdown" onclick="toggleDropdown()">
             <img src="static/images/Home/user-icon.webp" >
             <div class="dropdown-content">
               <a href="#">Profile</a>
               <a href="#">Logout</a>
             </div>
-          </div>
+        </div>
 
     </nav>
 
@@ -111,7 +111,7 @@
                                 </label>
                             </div>
     
-                            <div class="Requests">
+                            <div class="">
                                 <div>
                                     <h3>
                                         Requests
@@ -162,9 +162,12 @@
                 Documents
             </h1>
 
-            <button>
-                Upload Document
-            </button>
+            <a href="docform.html">
+                <button>
+                    Upload Document
+                </button>
+            </a>
+           
 
             <div class="documents">
                 <div class="document">
@@ -212,9 +215,12 @@
                     Groups
                 </h1>
 
-                <button>
-                    Create Group
-                </button>
+                <a href="groupform.html">
+                    <button>
+                        Create Group
+                    </button>
+                </a>
+                
                 
                 <div class="groups-container">
                     <div class="group">
@@ -268,14 +274,21 @@
 
                 <p >see more</p>
 
+                <!-- Requests -->
+
                 <div>
+                
                     <h1>
                         Requests
                     </h1>
-    
-                   <button>
-                    Create Request
-                   </button>
+                   
+                  
+                    <a href="postform.html">
+                        <button>
+                            Create Request
+                       </button>
+                    </a>
+                 
     
                     <div class="Requests" >
                         
@@ -285,8 +298,6 @@
                                 <div>
                                     <img src="static/images/Home/user1.PNG" alt="">
                                 </div>
-                                
-            
                             </div>
     
                             <div class="post-body">
@@ -308,7 +319,7 @@
     
                                 <div class="support">
                                     <div>
-                                        <button id="btn">Support</button>
+                                        <button class="btn">Support</button>
                                     </div>
         
                                     <div>
@@ -333,11 +344,11 @@
     
                             <div class="post-body">
                                 <div class="author-group">
-                                    <div>
+                                    <!-- <div>
                                         <h2>
                                             History Paper Requests
                                         </h2>
-                                    </div>
+                                    </div> -->
                                    
                                     <div>
                                         <p>Steven zulu</p>
@@ -352,7 +363,7 @@
     
                                 <div class="support">
                                     <div>
-                                        <button id="btn">Support</button>
+                                        <button class="btn">Support</button>
                                     </div>
         
                                     <div>
@@ -397,7 +408,7 @@
     
                                 <div class="support">
                                     <div>
-                                        <button id="btn">Support</button>
+                                        <button class="btn">Support</button>
                                     </div>
         
                                     <div>
@@ -440,7 +451,7 @@
                                 </div>
                                 <div class="support">
                                     <div>
-                                        <button id="btn">Support</button>
+                                        <button class="btn">Support</button>
                                     </div>
         
                                     <div>

@@ -1,16 +1,42 @@
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1000px;
+    height: 900px;
+}
+
+.container input{
+    margin: 0;
+    opacity: 1;
+    height: 3rem;
+    width: 30rem;
+    border: none;
+}
+.container button{
+    background-color: orange;
+    border: none;
+    color: white;
 }
 
 .grpform{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.grpform .upload{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: rgb(245, 214, 157);
-    width: 600px;
-    height: 900px;
+    width: 1000px;
+    height: 500px;
+}
+
+
+.grpform button {
+    width: 200px;
+    height: 50px;
 }
