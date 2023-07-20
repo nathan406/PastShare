@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+}
+.doc-container{
+    margin-top: 2rem;
+    padding: 2rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+body h1{
+    padding-left: 5rem;
+}
+
+.doc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width:200px ;
+    height: 450px;
+    background-color: rgb(245, 214, 157);
+}
+.main h1{
+    color: orange;
+    font-weight: 700;
+}
+.doc img{
+    width: 180px;
+} 
+
+.doc button{
+    border: none;
+    background-color: orange;
+    padding: 0.5rem;
+    color: white;
+    width: 80px;
+}

@@ -285,10 +285,11 @@ nav img{
     background-color: rgb(245, 214, 157);
 }
 
-.biologygroup img{
-    width: 10rem;
-}
 
+
+.biologygroup img{
+    width: 20rem;
+}
 .history img{
     width: 15rem;
 }
@@ -355,8 +356,13 @@ nav img{
 .support{
     display: flex;
     gap: 1rem;
+    /* align-items: center; */
 }
 
+
+.support img{
+    width: 1.5rem;
+}
 .orange {
     background-color: orange;
 }
@@ -365,24 +371,10 @@ nav img{
     background-color: white;
 }
 
-/* .supportbtn {
-    background-color: white;
-    color: orange;
-    border: none;
-    border-radius: 3rem;
-    text-align: center;
-    text-decoration: none;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  .supportbtn.clicked {
-    background-color: orange;
-    color: white;
-  } */
   
 .support p{
     margin: 0;
+    padding: 0;
+    padding-top:5px ;
 }
 

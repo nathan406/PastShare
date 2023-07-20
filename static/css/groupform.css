@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 900px;
 }
 
 .container input{
@@ -12,6 +11,12 @@
     height: 3rem;
     width: 30rem;
     border: none;
+}
+.container textarea{
+    border: none;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    width: 60rem;
 }
 .container button{
     background-color: orange;
